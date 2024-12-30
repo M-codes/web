@@ -1,0 +1,186 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    font-family: Roboto, sans-serif;
+    flex-direction: column;
+    
+    
+}
+
+.header img {
+    max-height: 50px; /* Adjust height to fit the header size */
+    width: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align image with text */
+}
+
+.header{
+    background-color: black;
+}
+
+.header, .footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+ul{
+    display: flex;
+    list-style:none;
+    margin: 0;
+    padding:0;
+    gap:16px;
+}
+
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: black
+}
+
+.text{
+    flex: 1;
+    color: #f9faf8;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.image{
+    flex:1;
+}
+
+.image img{
+    max-width: 100%;
+    height: auto;
+}
+
+.sign-up {
+    padding: 10px 20px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content1{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 32px;
+}
+
+.content1 img{
+    width: 200px;
+    height: 200px;
+    border: #007BFF;
+    border-radius: 10cm;
+    
+}
+
+.info {
+    max-width: 200px;
+  }
+
+.content2{
+  
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background to make it stand out */
+    
+    font-style: italic; /* Italicized text for quote styling */
+    font-family: Georgia, serif; /* A serif font for a formal look */
+    color: #333; /* Darker text for readability */
+}
+
+.content2 p::before {
+    
+    font-size: 2rem;
+    color: #007BFF; /* Match the bar's color */
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.content2 p::after {
+    
+    font-size: 2rem;
+    color: #007BFF; /* Match the bar's color */
+    vertical-align: bottom;
+    margin-left: 5px;
+}
+
+.content2 p {
+    margin: 0; /* Reset margin for precise layout */
+    line-height: 1.6; /* Improve readability */
+}
+
+.author {
+    text-align: right; /* Align author name to the right */
+    font-size: 1rem; /* Smaller font size for the author */
+    color: #555; /* Lighter color for subtle emphasis */
+    margin: 0; /* Remove default margin */
+    font-style: normal; /* Normal style for the author */
+}
+
+.cta-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4285F4;
+    padding: 20px;
+    margin: 100px;
+    border-radius: 8px; /* Rounded corners */
+    color: #fff; /* White text color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.cta-text h2 {
+    margin: 0;
+    font-size: 1.5rem; /* Larger text for the main heading */
+    font-weight: bold;
+}
+
+.cta-text p {
+    margin: 5px 0 0;
+    font-size: 0.9rem; /* Smaller font for the subtext */
+}
+
+.cta-button {
+    background-color: transparent; /* Transparent button */
+    color: #fff; /* White text color */
+    border: 2px solid #fff; /* White border */
+    padding: 10px 20px; /* Space inside the button */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem; /* Readable text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+.cta-button:hover {
+    background-color: #fff; /* Invert colors on hover */
+    color: #4285F4; /* Match the banner color */
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #555;
+}
